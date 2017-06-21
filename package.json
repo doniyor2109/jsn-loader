@@ -1,0 +1,17 @@
+{
+  "name": "jsn-loader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "json",
+    "loader",
+    "webpack",
+    "javascript",
+    "file",
+    "execute"
+  ],
+  "author": "Doniyor",
+  "license": "ISC"
+}
