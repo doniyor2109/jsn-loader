@@ -11,7 +11,7 @@ module.exports = function (source) {
     } catch (e){
         console.error("wrong js for json format");
     }
-    fs.writeFileSync(path.resolve(this.options && this.options.output.path || "", filename), JSON.stringify(code || {}));
+    fs.writeFileSync(path.resolve(this.options && this.options.output && this.options.output.path || "", filename), JSON.stringify(code || {}));
     return `module.exports = __webpack_public_path__ +  '${filename}'`;
 };
 
