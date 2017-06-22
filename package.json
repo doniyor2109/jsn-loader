@@ -1,6 +1,6 @@
 {
   "name": "jsn-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {},
@@ -14,13 +14,12 @@
   ],
   "author": "Doniyor",
   "license": "ISC",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/doniyor2109/jsn-loader.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/doniyor2109/jsn-loader.git"
   },
   "bugs": {
-    "url" : "https://github.com/doniyor2109/jsn-loader/issues",
-    "email" : "doniyor2109@mail.ru"
+    "url": "https://github.com/doniyor2109/jsn-loader/issues",
+    "email": "doniyor2109@mail.ru"
   }
-
 }
