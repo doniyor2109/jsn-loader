@@ -1,7 +1,7 @@
 {
   "name": "jsn-loader",
   "version": "1.0.1",
-  "description": "",
+  "description": "This is webpack loader to convert your javascript code to json file and access it by path",
   "main": "index.js",
   "scripts": {},
   "keywords": [
