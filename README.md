@@ -15,7 +15,7 @@ Just add the loader to your webpack configuration
       ]
     }
  };
-```
+````
 ## Example
 
 #### Before
