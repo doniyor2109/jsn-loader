@@ -1,13 +1,24 @@
 # jsn-loader
 This is webpack loader converts your dynamic configuration to static.
 
-# Usage
+## Usage
 
 Just add the loader to your webpack configuration
+````javascript
+  module.exports = {
+    module: {
+      rules: [
+        { 
+          test: /\.jsn$/, 
+          use: 'jsn-loader'
+        }
+      ]
+    }
+ };
+```
+## Example
 
-# Example
-
-Before
+#### Before
 This is your dynamic configuration file
 ```javascript
 const os = require("os");
@@ -20,7 +31,7 @@ module.exports = {
   platform: os.platform()
 };
 ```
-After 
+#### After 
 This is your static configuration file
 ```javascript
 {
